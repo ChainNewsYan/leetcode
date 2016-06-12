@@ -1,2 +1,2 @@
-# Leetcode
-leetcode solutions set
+# Leetcode Solutions
+
