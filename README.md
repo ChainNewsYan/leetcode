@@ -1,2 +1,2 @@
-# Leetcode Solutions
+# Leetcode JavaScript Solutions
 
