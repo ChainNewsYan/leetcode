@@ -6,9 +6,12 @@
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
+ * 这种解法只能由后往前遍历
+ * 当从前往后遍历时：for(var i=0;i<nums.lenght;i++),nums=[0,0,1]时.第一次循环得到[0,1,0],然而原本索引为1,2的元素此时索引已经变为0,1.
+ * 而循环体内i仍自加.
  */
 var moveZeroes = function(nums) {
-    for(var i=nums.length;i>=0;i--){
+    for(var i=nums.length-1;i>=0;i--){
         if(nums[i]===0){
             nums.splice(i,1);
             nums.push(0)
