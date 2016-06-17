@@ -6,6 +6,7 @@
 /**
  * @param {string} s
  * @return {string}
+ * 这里有个坑,记得填
  */
 var reverseString = function(s) {
     var tail = s[s.length-1];
