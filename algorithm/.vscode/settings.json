@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.lineHeight": 25,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize":12,
+    "php.validate.run": "onType"
+}
