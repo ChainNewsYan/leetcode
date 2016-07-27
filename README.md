@@ -17,7 +17,7 @@ var maxDepth = function(root) {
 ```
 _**explantion**_
 ```
-1.The maximum depth is the maximum depth of child +1
+1.The maximum depth of binary tree is the maximum depth of it's child +1
 2.Use recursion
 ```
 
