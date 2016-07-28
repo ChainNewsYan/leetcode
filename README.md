@@ -21,4 +21,17 @@ _**explantion**_
 2.Use recursion
 ```
 
+## #226 Invert binary tree
+
+_**my solution**_
+```javascript
+var invertTree = function(root){
+    if(null === root) return root;
+    var temp   = invertTree(root.left);
+    root.left  = invertTree(root.right);
+    root.right = temp; 
+    return root;
+}
+```
+
 
