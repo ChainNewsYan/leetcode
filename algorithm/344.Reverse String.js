@@ -6,7 +6,7 @@
 /**
  * @param {string} s
  * @return {string}
- * 递归，但是这里有个坑，暂时不填
+ * 递归，但是这里有个坑（有一个官方测试用例没有通过，我也在找原因），暂时不填
  */
 var reverseString = function(s) {
     var tail = s[s.length - 1];
