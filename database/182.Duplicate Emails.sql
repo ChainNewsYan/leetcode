@@ -22,4 +22,4 @@ ssh-keygen -t rsa -C "email"
 git checkout -b Dev
 git checkout master
 git merge Dev
-git branch -d Dev --无法删除自己当前所在的分支，必须先移动到master分支
+git branch -d Dev --无法删除自己当前所在的分支，必须先移动到master分支    
