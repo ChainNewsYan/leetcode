@@ -19,4 +19,7 @@ git remote
 git clone
 git remote add NAME git@github.com:cxl/leetcode.git
 ssh-keygen -t rsa -C "email"
-s
+git checkout -b Dev
+git checkout master
+git merge Dev
+git branch -d Dev
