@@ -6,6 +6,7 @@ HAVING COUNT(*)>1
 git reflog 
 git diff
 git log --pretty=oneline
+git log -1 --上一次提交信息，同理，git log -2 上两次提交信息
 git status
 git init 
 git add
