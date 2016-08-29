@@ -25,4 +25,4 @@ git checkout master
 git merge Dev
 git branch -d Dev --无法删除自己当前所在的分支，必须先移动到master分支    
 git branch -D Dev --大写D表示强制删除分支，即使这个分支还没有merge到master
-Dev+
+Dev++
