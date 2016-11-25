@@ -1,10 +1,4 @@
-# #206. Reverse Linked List
-Reverse a singly linked list.
 
-<hr>  
-
-### _*solution1*_
-```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -26,15 +20,21 @@ var reverseList = function(head) {
     }
     return arr.reverse();
 };
-```
 
-### _*explantion*_
-1. 这个解法作弊了，没什么意义，题目的本意应该是单纯用ListNode的数据结构而不是数组
-2. 下面给出数据结构中利用单链表节点与指针形式的写法    
-<hr>    
 
-### _*solution2*_
-```javascript
+
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
 var reverseList = function(head) {
     if(head===null||head.next===null)
         return head;
@@ -50,14 +50,21 @@ var reverseList = function(head) {
     
     return head;
 };
-```
 
-### _*explantion*_
-1. 这个解法需要数据结构链表部分的知识，掌握这块知识自然不难解
-<hr>
 
-### _*solution3*_
-```javascript
+
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
 var reverseList = function(n) {
     var prev = null
     while (n) 
@@ -65,8 +72,4 @@ var reverseList = function(n) {
     
     return prev ;
 };
-```
 
-### _*explantion*_
-1. 这个是见过的最简单的的写法
-2. 原理一样，
