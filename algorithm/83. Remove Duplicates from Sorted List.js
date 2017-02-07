@@ -8,6 +8,7 @@
 /**
  * @param {ListNode} head
  * @return {ListNode}
+ * 单链表去重，O(n^2)
  */
 var deleteDuplicates = function(head) {
     if (head === null) return null;
