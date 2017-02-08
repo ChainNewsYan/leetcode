@@ -3,8 +3,7 @@
  * @return {string[]}
  */
 var findRelativeRanks = function(nums) {
-    var sortedNums = nums.concat().sort((x,y)=>y-x);  // nums.concat 一维数组的复制
-
+    var sortedNums = nums.concat().sort((x,y)=>y-x);  // nums.concat 涓�缁存暟缁勭殑澶嶅埗
     for (let i in sortedNums) {
         var index = nums.indexOf(sortedNums[i]);
         switch(i*1) {
