@@ -1,4 +1,9 @@
--- 简单去重
+-- 方法1
 SELECT Email FROM Person
 GROUP BY Email
 HAVING COUNT(*)>1
+
+-- 方法2
+SELECT DISTINCT p1.Email
+FROM Person p1,Person p2
+WHERE p1.Email = p2.Email AND p1.id != p2.id
