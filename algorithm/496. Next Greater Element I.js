@@ -15,11 +15,8 @@ var nextGreaterElement = function(findNums, nums) {
                 digit = nums[j];
                 break;
             }
-        }
-        
+        }       
         res.push(digit);
-        
     }
-    
     return res;
 };
