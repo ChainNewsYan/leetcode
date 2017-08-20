@@ -1,5 +1,5 @@
-# Leetcode javascript solution
-目前第一轮，没有考虑时间空间复杂度
+# Leetcode solution
+First round without time & space complexity considering
 # Solution list
 |#|Title|Solution|Category|
 |--|--|--|--|
