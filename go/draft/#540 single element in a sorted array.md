@@ -18,7 +18,7 @@ Output: 10
 func singleNonDuplicate(nums []int) int {
     len := len(nums)
     for i, v := range nums {
-        if i == len - 1 {  // 当前元素如果已经是最后一个元素，直接 break. 同时也是为了防止下面的 nums[i+1] 数组越界
+        if i == len - 1 {  // 当前元素如果已经是最后一个元素，直接 break. 同时也是为了防止下面的 nums[i+1] 数组越界
             break
         }
         nums[i+1] = v ^ nums[i+1]  // 当前元素和下一个元素 xor 的结果会被保存到下一个元素
@@ -53,4 +53,4 @@ func singleNonDuplicate(nums []int) int {
 ## solution 2
 时间复杂度 ```O(log(n))```。  
 
-题目要求时间复杂度是 ```O(log(n))```，再加上已经说明了数组是有序的。其实也只剩下 ```二分查找``` 这一种思路了。
+题目要求时间复杂度是 ```O(log(n))```，再加上已经说明了数组是有序的。其实也只剩下 ```二分查找``` 这一种思路了。
