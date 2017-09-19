@@ -29,6 +29,36 @@ func singleNonDuplicate(nums []int) int {
 ```
 # solution 2
 ```go
+func singleNonDuplicate(nums []int) int {
+    left  := 0
+    right := len(nums) - 1
+    mid := 0
+    for left <= right {
+        mid = (left + right) / 2
+        if left == right {   // left = right, 则 mid = left = right 。 说明当前值为该查找过程的最后一个值，即不重复值
+            break
+        }
+        if mid % 2 == 1 {  // mid % 2 == 1 说明 nums[mid] 左右各有奇数个元素
+            if nums[mid] == nums[mid+1] {
+                right = mid - 1
+            } else if nums[mid] == nums[mid-1] {
+                left = mid + 1
+            } else {
+                break
+            }
+        } else { // mid % 2 == 0 说明 nums[mid] 左右各有偶数个元素
+            if nums[mid] == nums[mid+1] {
+                left = mid + 2
+            } else if nums[mid] == nums[mid-1] {
+                right = mid - 2
+            } else {
+                break
+            }
+        }
+    }
+    
+    return nums[mid]
+}
 ```
 # explain
 ## solution 1 
@@ -53,4 +83,38 @@ func singleNonDuplicate(nums []int) int {
 ## solution 2
 时间复杂度 ```O(log(n))```。  
 
-题目要求时间复杂度是 ```O(log(n))```，再加上已经说明了数组是有序的。其实也只剩下 ```二分查找``` 这一种思路了。
+题目要求时间复杂度是 ```O(log(n))```，再加上已经说明了数组是有序的。其实也只剩下 ```二分查找``` 这一种思路了。 二分查找中，每一次迭代都要判断出目标元素在中间元素的左边还是右边，每一次迭代舍弃掉一半不符合条件的数据，直到找到目标元素。    
+
+即，每次迭代要判断出不重复值是在中间值的左边还是右边。  
+
+```go
+/**
+ * 由题目可知，nums 只能有奇数个数元素，所以一定会有处于中间的元素。有两种情况:
+ *    1. 中间元素左右两边有奇数个元素，如: 1,1,2,2,3,4,4. 中间元素 2 左右两侧各有 3 个元素
+ *    2. 中间元素左右两边有偶数个元素，如: 1,1,2,2,3,3,4,5,5. 中间元素 3 左右两侧各有 4 个元素
+ */
+
+if mid % 2 == 1 {  // mid % 2 == 1 说明 nums[mid] 左右各有奇数个元素
+    // eg: 1,1,2,3,3,4,4 . 
+    // 如果中间元素 nums[3] 和 nums[4] 是一对重复值，则 nums[3] 左侧的奇数个元素一定有一个元素无法与其他元素组成一对重复值
+    // 即，不重复值一定在 nums[mid] 左侧，right = mid - 1
+    if nums[mid] == nums[mid+1] {
+        right = mid - 1
+    } else if nums[mid] == nums[mid-1] { // 同理，不重复值一定在 nums[mid] 右侧
+        left = mid + 1
+    } else {
+        break
+    }
+} else { // mid % 2 == 0 说明 nums[mid] 左右各有偶数个元素
+    // eg: 1,1,2,2,3,3,4,5,5
+    // 中间元素 nums[4] 和 nums[5] 是一对重复值，则 nums[5] 右侧的 4,5,5 是奇数个元素，已定有个一元素无法与其他元素组成一对重复值
+    // 即，不重复值已定在 nums[mid] 右侧，left = mid + 2
+    if nums[mid] == nums[mid+1] {
+        left = mid + 2
+    } else if nums[mid] == nums[mid-1] { // 同理，不重复值一定在 nums[mid] 左侧
+        right = mid - 2
+    } else {
+        break
+    }
+}
+```
