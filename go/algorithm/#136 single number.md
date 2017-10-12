@@ -7,6 +7,3 @@ Given an array of integers, every element appears twice except for one. Find tha
 时间复杂度 ```O(n)```。 
 
 数组无序，所以不能用 540 题的 solution 2。
-
-
-
