@@ -14,7 +14,7 @@ Given a positive integer, return its corresponding column title as appear in an 
 
 # solution
 ```go
-var alphabet = [27]string{"占位符,方便数组从 1 开始", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}
+var alphabet = [27]string{"占位符,方便数组从 1 开始", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}
 
 func convertToTitle(n int) string {
     if n <= 26 {
@@ -32,4 +32,3 @@ func convertToTitle(n int) string {
 # explain 
 
  
-
