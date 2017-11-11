@@ -17,14 +17,14 @@ AB -> 28
 # solution
 ```go
 func titleToNumber(s string) int {
-	len := strings.Count(s, "") - 2
+    len := strings.Count(s, "") - 2
 
     sum := 0
-	for _, letter := range s {
+    for _, letter := range s {
         p := int((letter - 64)) * int(math.Pow(26, float64(len)))
         sum += p
         len--
-	}
+    }
     return sum
 }
 ```
