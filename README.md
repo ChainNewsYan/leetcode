@@ -13,6 +13,7 @@ leetcode 第一轮
 |144|binary tree preorder traversal|go|easy
 |168|excel sheet column title|go|easy
 |169|majority element|go|easy
+|171|excel sheet column number|easy|
 |175|combine two tables|t-sql|easy|
 |176|second highest salary|t-sql|easy|
 |180|consecutive numbers|t-sql|medium|
