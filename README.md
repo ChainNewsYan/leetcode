@@ -20,7 +20,8 @@ leetcode 第一轮
 |181|employees earning more than their managers|t-sql|easy|
 |182|duplicate emails|t-sql|easy|
 |183|customers who never order|t-sql|easy|
-|184|department highest salary|t-sql|medium|
+|184|department highest salary|t-sql|medium|  
+|192|word frequency|shell|medium|  
 |193|valid phone numbers|shell|easy|
 |195|tenth line|shell|easy|
 |196|delete duplicate emails|t-sql|easy|
