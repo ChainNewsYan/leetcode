@@ -22,7 +22,8 @@ leetcode 第一轮
 |183|customers who never order|t-sql|easy|
 |184|department highest salary|t-sql|medium|  
 |192|word frequency|shell|medium|  
-|193|valid phone numbers|shell|easy|
+|193|valid phone numbers|shell|easy|  
+|194|transpose file|  shell | medium|  
 |195|tenth line|shell|easy|
 |196|delete duplicate emails|t-sql|easy|
 |197|rising temperature|t-sql|easy|
