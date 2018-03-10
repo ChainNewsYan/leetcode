@@ -35,5 +35,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 # explain
 时间复杂度 ```O(n)```。  
 
-有序单链表去重, 注意出现 2 个以上的连续重复节点的情况。只有当下一个节点的值不等于 current 节点的值时， current 指针才会移动到 next。
-
+有序单链表去重, 注意出现 2 个以上的连续重复节点的情况。只有当下一个节点的值不等于 current 节点的值时， current 指针才会移动到 next。

@@ -27,5 +27,4 @@ func reverse(x int) int {
 # explain
 时间复杂度 ```O(n)```。  
 
-主要是判断 reverse 之后的 int32 溢出情况  
-
+主要是判断 reverse 之后的 int32 溢出情况  

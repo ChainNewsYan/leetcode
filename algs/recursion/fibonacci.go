@@ -30,10 +30,10 @@ func Fib_0 (n int) int {
 
 /**
  * 普通递归的优化
- * fib_0 里会有大量重复计算，比如 fib_0(10) 会进行 2 次 fib_0 (8) 的计算, 会进行 3 次 fib_0 (7) 计算
+ * fib_0 里会有大量重复计算，比如 fib_0(10) 会进行 2 次 fib_0 (8) 的计算, 会进行 3 次 fib_0 (7) 计算
  * 可以把计算过的结果存起来
  */
-var tmp = make(map[int]int) // 注意判断最大值... 
+var tmp = make(map[int]int) // 注意判断最大值... 
 func Fib_0_enhanced(n int) int {
 	 if (n <= 1) {
 		 return n

@@ -51,7 +51,3 @@ func process(root *TreeNode, tmp *[]int) {
 时间复杂度 ```O(n)```。 
 
 二叉树先序遍历。二叉树遍历方式一般有三种：递归、迭代、morris。
-
-
-
-

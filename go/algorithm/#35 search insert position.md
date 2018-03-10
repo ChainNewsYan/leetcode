@@ -26,4 +26,3 @@ func searchInsert(nums []int, target int) int {
 ```
 # explain
 时间复杂度 ```O(n)```。  
-
