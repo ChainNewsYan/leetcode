@@ -4,49 +4,50 @@
 ## #1 算法类 （algorithm)
 |#|题目|语言|关键词|
 |-|-------|--------|---------|
-|1|two sum|go|哈希表|
-|7|reverse integer|go|二叉树、递归|
-|35|search insert position|go|数组|
-|83|remove duplicates from sorted list|go|链表
-|100|same tree|go|二叉树、递归|
-|104|maximum depth of binary tree|go|二叉树、递归|
-|136|single number|go|位运算|
-|144|binary tree preorder traversal|go|二叉树、递归
-|168|excel sheet column title|go|进制转换、递归
-|169|majority element|go|数组
-|171|excel sheet column number|go|进制转换| 
-|202|happy number|go|其它|
-|206|reverse linked list|go|链表|
-|217|contains duplicate|go|其它|
-|216|invert binary tree|go|二叉树、递归|
-|292|nim game|go|归纳法| 
-|540|single element in a sorted array|go|位运算、二分查找|
-|657|judge route circle|go|其它|  
-|771|jewels and stones|go|其它|  
+|1|[two sum](algorithm/1.md)|go|哈希表|
+|7|[reverse integer](algorithm/7.md)|go|二叉树、递归|
+|35|[search insert position](algorithm/35.md)|go|数组|
+|83|[remove duplicates from sorted list](algorithm/83.md)|go|链表
+|100|[same tree](algorithm/100.md)|go|二叉树、递归|
+|104|[maximum depth of binary tree](algorithm/104.md)|go|二叉树、递归|
+|136|[single number](algorithm/136.md)|go|位运算|
+|144|[binary tree preorder traversal](algorithm/144.md)|go|二叉树、递归
+|168|[excel sheet column title](algorithm/168.md)|go|进制转换、递归
+|169|[majority element](algorithm/169.md)|go|数组
+|171|[excel sheet column number](algorithm/171.md)|go|进制转换| 
+|202|[happy number](algorithm/202.md)|go|其它|
+|206|[reverse linked list](algorithm/206.md)|go|链表|
+|216|[invert binary tree](algorithm/216.md)|go|二叉树、递归|
+|217|[contains duplicate](algorithm/217.md)|go|其它|
+|292|[nim game](algorithm/292.md)|go|归纳法| 
+|540|[single element in a sorted array](draft/540.md)|go、javascript|位运算、二分查找|
+|657|[judge route circle](algorithm/657.md)|go|其它|  
+|771|[jewels and stones](algorithm/771.md)|go|其它| 
+|796|[rotate string](algorithm/796.md)|go|字符串|  
 
 ## #2 SQL 查询 (SQL query)
 |#|题目|语言|
 |-|-------|--------|
-|175|combine two tables|t-sql|
-|176|second highest salary|t-sql|
-|180|consecutive numbers|t-sql|
-|181|employees earning more than their managers|t-sql|
-|182|duplicate emails|t-sql|
-|183|customers who never order|t-sql|
-|184|department highest salary|t-sql|   
-|196|delete duplicate emails|t-sql|
-|197|rising temperature|t-sql|
-|595|big countries|t-sql|
-|620|not boring movies|t-sql|
-|627|swap salary|t-sql|
+|175|[combine two tables](database/175.sql)|t-sql|
+|176|[second highest salary](database/176.sql)|t-sql|
+|180|[consecutive numbers](database/180.sql)|t-sql|
+|181|[employees earning more than their managers](database/181.sql)|t-sql|
+|182|[duplicate emails](database/182.sql)|t-sql|
+|183|[customers who never order](database/183.sql)|t-sql|
+|184|[department highest salary](database/184.sql)|t-sql|   
+|196|[delete duplicate emails](database/196.sql)|t-sql|
+|197|[rising temperature](database/197.sql)|t-sql|
+|595|[big countries](database/595.sql)|t-sql|
+|620|[not boring movies](database/620.sql)|t-sql|
+|627|[swap salary](database/627.sql)|t-sql|
 
 ## #3 Shell 脚本 (Shell script)
 |#|题目|语言|
 |-|-------|--------|
-|192|word frequency|shell|
-|193|valid phone numbers|shell|
-|194|transpose file|  shell | 
-|195|tenth line|shell|
+|192|[word frequency](shell/192.sh)|shell|
+|193|[valid phone numbers](shell/193.sh)|shell|
+|194|[transpose file](shell/194.sh)|  shell | 
+|195|[tenth line](shell/195.sh)|shell|
 
 
 
