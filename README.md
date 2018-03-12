@@ -1,5 +1,6 @@
 # Leetcode 
-* 2018-03-10 leetcode 第一轮
+### leetcode 第一轮
+* **2018-03-12** leetcode 测试用例的覆盖率非常高（如果你找到一个没有被覆盖到的测试用例，你就可以拿它去找 leetcode 领赏了 ）, 所以做题的时候一定要考虑各种边界外 input 值 (比如有符号/无符号 溢出等等..)。
 
 ## #1 算法类 （algorithm)
 |#|题目|语言|关键词|
@@ -14,14 +15,19 @@
 |144|[binary tree preorder traversal](algorithm/144.md)|go|二叉树、递归
 |168|[excel sheet column title](algorithm/168.md)|go|进制转换、递归
 |169|[majority element](algorithm/169.md)|go|数组
-|171|[excel sheet column number](algorithm/171.md)|go|进制转换| 
+|171|[excel sheet column number](algorithm/171.md)|go|进制转换|
+|191|[number of 1 bits](algorithm/191.md)|go、javascript|其它|  
 |202|[happy number](algorithm/202.md)|go|其它|
 |206|[reverse linked list](algorithm/206.md)|go|链表|
-|216|[invert binary tree](algorithm/216.md)|go|二叉树、递归|
 |217|[contains duplicate](algorithm/217.md)|go|其它|
-|292|[nim game](algorithm/292.md)|go|归纳法| 
+|226|[invert binary tree](algorithm/216.md)|go|二叉树、递归|
+|237|[delete node in a linked list](algorithm/237.md)|javascript|链表|  
+|242|[valid anagram](algorithm/242.md)|go|字符串| 
+|292|[nim game](algorithm/292.md)|go|归纳法|
+|461|[hamming distance](algorithm/461.md)|go|位运算|  
 |540|[single element in a sorted array](draft/540.md)|go、javascript|位运算、二分查找|
-|657|[judge route circle](algorithm/657.md)|go|其它|  
+|657|[judge route circle](algorithm/657.md)|go|其它| 
+|728|[self dividing numbers](algorithm/728.md) |go|其它| 
 |771|[jewels and stones](algorithm/771.md)|go|其它| 
 |796|[rotate string](algorithm/796.md)|go|字符串|  
 
