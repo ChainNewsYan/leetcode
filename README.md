@@ -22,7 +22,9 @@
 |217|[contains duplicate](algorithm/217.md)|go|其它|
 |226|[invert binary tree](algorithm/216.md)|go|二叉树、递归|
 |237|[delete node in a linked list](algorithm/237.md)|javascript|链表|  
-|242|[valid anagram](algorithm/242.md)|go|字符串| 
+|242|[valid anagram](algorithm/242.md)|go|字符串|  
+|258|[add digits](algorithm/258.md)|go|其它|
+|268|[missing number](algorithm/268.md)|go|位运算|  
 |292|[nim game](algorithm/292.md)|go|归纳法|
 |461|[hamming distance](algorithm/461.md)|go|位运算|  
 |540|[single element in a sorted array](draft/540.md)|go、javascript|位运算、二分查找|
