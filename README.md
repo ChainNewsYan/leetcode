@@ -24,8 +24,10 @@
 |237|[delete node in a linked list](algorithm/237.md)|javascript|链表|  
 |242|[valid anagram](algorithm/242.md)|go|字符串|  
 |258|[add digits](algorithm/258.md)|go|其它|
-|268|[missing number](algorithm/268.md)|go|位运算|  
-|292|[nim game](algorithm/292.md)|go|归纳法|
+|268|[missing number](algorithm/268.md)|go|位运算| 
+|283|[move zeros](algorithm/283.md)|go|数组|  
+|292|[nim game](algorithm/292.md)|go|归纳法| 
+|338|[counting bits](algorithm/338.md)|go|其它|  
 |461|[hamming distance](algorithm/461.md)|go|位运算|  
 |540|[single element in a sorted array](draft/540.md)|go、javascript|位运算、二分查找|
 |657|[judge route circle](algorithm/657.md)|go|其它| 
