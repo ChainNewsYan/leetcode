@@ -28,6 +28,7 @@
 |283|[move zeros](algorithm/283.md)|go|数组|  
 |292|[nim game](algorithm/292.md)|go|归纳法| 
 |338|[counting bits](algorithm/338.md)|go|其它|  
+|342|[power of four](algorithm/342.md)|go|
 |461|[hamming distance](algorithm/461.md)|go|位运算|  
 |540|[single element in a sorted array](draft/540.md)|go、javascript|位运算、二分查找|
 |657|[judge route circle](algorithm/657.md)|go|其它| 
